@@ -1,0 +1,54 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #161625;
+  min-height: 100vh;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  width: 77%;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+  margin-right: 7px;
+}
+
+.heading {
+  color: #2cc6c6;
+  font-size: 38px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.description {
+  color: #cbd5e1;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 77%;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+
+.failure-img {
+  width: 50%;
+}
+
+.failure-description {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  margin-top: 8px;
+}
