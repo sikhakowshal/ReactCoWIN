@@ -59,7 +59,7 @@ class CowinDashboard extends Component {
         alt="failure view"
         className="failure-img"
       />
-      <p className="failure-description">Something went wrong</p>
+      <h1 className="failure-description">Something went wrong</h1>
     </div>
   )
 
